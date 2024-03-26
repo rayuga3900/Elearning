@@ -5,19 +5,18 @@
 
  
 ## Registration and Login page
-<img src="https://github.com/rayuga3900/Elearning/assets/159263407/28ea7ef5-c3cf-4e87-b434-719f1da2bccb" alt="image" width="200" height="300"/> 
-
-<img src="https://github.com/rayuga3900/Elearning/assets/159263407/44a31c60-3c8d-4b22-80e9-883cece68a32" alt="image" width="200" height="300"/> 
+<img src="https://github.com/rayuga3900/Elearning/assets/159263407/8eb9337e-bf1a-4d1b-91cf-418d9d58cfb6" alt="image" width="300" height="300"/> 
 
  
 
+ 
+
+ 
 
 ## Admin page
-  <img src="https://github.com/rayuga3900/Elearning/assets/159263407/d36ce63e-0c9f-4951-bdb8-dd8c9747ebd9 " alt="image" width="200" height="300"/> 
-  <img src="https://github.com/rayuga3900/Elearning/assets/159263407/a8349dc1-4202-41e7-9c97-1e124cbce830 " alt="image" width="200" height="300"/> 
-  <img src="https://github.com/rayuga3900/Elearning/assets/159263407/e6b5e93f-7b5a-499d-ad47-dd8503a4e645" alt="image" width="200" height="300"/> 
+  <img src="https://github.com/rayuga3900/Elearning/assets/159263407/53fa8bfb-f68d-4c19-b1a3-66e2cae9b4e9 " alt="image" width="500" height="300"/> 
+  
 
-    
 ## Teacher page
  <img src="https://github.com/rayuga3900/Elearning/assets/159263407/35bb11e7-dadf-4271-89c6-82f46a36ce5d" alt="image" width="200" height="300"/> 
  <img src="https://github.com/rayuga3900/Elearning/assets/159263407/de9137e2-802d-4ec4-b3ea-8eb7b95bf7ee" alt="image" width="200" height="300"/> 
