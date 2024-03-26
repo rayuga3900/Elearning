@@ -18,11 +18,11 @@ $mail->Host = "smtp.gmail.com"; // use $mail->Host = gethostbyname('smtp.gmail.c
 $mail->Port = 587; // TLS only
 $mail->SMTPSecure = 'tls'; // ssl is deprecated
 $mail->SMTPAuth = true;
-$mail->Username = 'cyberhavocx@gmail.com'; // email
-$mail->Password = 'kmcp kskq dhqd tpos'; // password
-$mail->setFrom('cyberhavocx@gmail.com', 'Cosmic Cipher'); // From email and name
+$mail->Username = ' '; // email
+$mail->Password = ' '; // password
+$mail->setFrom(' ', ' '); // From email and name
 $mail->addAddress($to); // to email and name
-$mail->Subject = 'Verification code for LearnIT app';
+$mail->Subject = 'Verification code for Elearning app';
 $mail->msgHTML("verification code:'$verificationcode'"); //$mail->msgHTML(file_get_contents('contents.html'), __DIR__); //Read an HTML message body from an external file, convert referenced images to embedded,
 $mail->AltBody = 'HTML messaging not supported'; // If html emails is not supported by the receiver, show this body
 // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
@@ -40,28 +40,5 @@ if($mail->send()){
 
 }
 }
-/*
-if(isset($_POST['email'])&&$_POST['email'])
-{
-$to=$_POST['email'];
-$verificationcode=mt_rand(100000,999999);//randomly selects 6 digit code
-
-
-$subject="Verification for elearning app";
-$message="Verification code:$verificationcode";
-$from="princeanu27@gmail.com";
-$headers="From:$from";
-echo"trying to send emaiol";
-if(mail($to,$subject,$message,$headers))
-{
-    echo "mail sent";
-}
-else
-{
-    echo "mail failed";
-}
-    echo $verificationcode;
-    
-}
-*/
+ 
 ?>
