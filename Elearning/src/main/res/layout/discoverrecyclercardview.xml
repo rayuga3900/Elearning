@@ -1,0 +1,78 @@
+<!-- res/layout/discover_item.xml -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        >
+
+    </View>
+
+    <TableRow
+        android:layout_width="390dp"
+        android:layout_height="57dp"
+        >
+
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent">
+
+        </View>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_profile_picture" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="17dp"
+            android:layout_height="match_parent">
+
+        </View>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Username"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Add"
+            android:textSize="14sp" />
+    </TableRow>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        >
+
+    </View>
+
+</TableLayout>

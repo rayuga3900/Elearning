@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_lectures"
+        android:title="Lectures" >
+
+    </item>
+<!--        android:icon="@drawable/ic_lecture_icon" />-->
+    <item
+        android:id="@+id/menu_notes"
+        android:title="Notes">
+
+    </item>
+<!--        android:icon="@drawable/ic_notes_icon" />-->
+</menu>
